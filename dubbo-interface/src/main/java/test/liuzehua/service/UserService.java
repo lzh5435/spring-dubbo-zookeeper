@@ -1,0 +1,1 @@
+package test.liuzehua.service;/** * @author liuzehua * 2020/6/20 **/public interface UserService {    String hello(String name);}

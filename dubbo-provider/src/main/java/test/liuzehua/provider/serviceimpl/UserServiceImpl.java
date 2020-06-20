@@ -1,0 +1,1 @@
+package test.liuzehua.provider.serviceimpl;import org.springframework.stereotype.Service;import test.liuzehua.service.UserService;/** * @author liuzehua * 2020/6/20 **/@Servicepublic class UserServiceImpl implements UserService {    @Override    public String hello(String name) {        return " hello "+name;    }}
